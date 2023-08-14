@@ -1,0 +1,111 @@
+.container {
+  font-family: "Caveat", cursive;
+  background: rgb(148, 187, 233);
+  background: radial-gradient(
+    circle,
+    rgba(148, 187, 233, 1) 0%,
+    rgba(238, 174, 202, 1) 100%
+  );
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  border-radius: 30px;
+  width: 60%;
+  padding: 30px;
+  margin: 30px auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-weight: 700;
+  color: #680747;
+  text-shadow: 2px 2px 3px #b90d80;
+  background: transparent;
+}
+
+img {
+  width: 22em;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+p {
+  text-align: justify;
+  width: 22em;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: transparent;
+  max-width: 90%;
+}
+
+strong {
+  background: transparent;
+}
+
+.discover {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 700;
+  border: solid 4px palevioletred;
+  border-radius: 30px;
+  padding: 15px;
+  margin-top: 20px;
+  width: 160px;
+  background: #b90d80;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.discover:hover {
+  background-color: rgb(216, 112, 176);
+}
+
+.explore {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: medium;
+  border: solid 4px lightblue;
+  border-radius: 30px;
+  padding: 15px;
+  margin-top: 20px;
+  width: 160px;
+  background: lightskyblue;
+  transition: all 200ms ease-in-out;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  cursor: pointer;
+  font-family: "Caveat", cursive;
+}
+
+.explore a {
+  background-color: transparent;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.explore:hover {
+  background-color: lightblue;
+}
+hr {
+  margin-top: 35px;
+}
+footer {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+  background: transparent;
+}
+
+footer a {
+  color: #b90d80;
+  font-weight: bolder;
+  background: transparent;
+}
